@@ -1,6 +1,18 @@
 body {
     font-family: Arial, sans-serif;
 }
+.header{
+    display: flex;
+
+}
+logo-link{
+    
+}
+
+logo-img{
+    font-size: 200px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
