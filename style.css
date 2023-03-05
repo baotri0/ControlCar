@@ -95,12 +95,6 @@ h1 {
     box-shadow: 0px 0px 5px #999;
 }
 
-.control_group {
-    width: 50%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
-
 .control_item {
     display: flex;
     justify-content: space-between;
@@ -191,13 +185,13 @@ button:hover{
 @media (max-width: 1000px){
     body {
         height: 100vh;
-        overflow: hidden;
     }
 
     .container{
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        height: 97vh;
     }
 
     .data_container {
@@ -206,21 +200,8 @@ button:hover{
         flex-direction: column;
     }
 
-    .control{
-        flex: 1;
-        /* height: 50%; */
-    }
-
     button {
-        width: 300px;
-        height: 300px;
-    }
-
-    .control_group {
-        width: 100%;
-        margin-left: 50%;
-        margin-top: 53%;
-        transform: translate(-50%, -50%);
-        /* transform: translateY(-50%); */
+        width: 14vh;
+        height: 14vh;
     }
 }
