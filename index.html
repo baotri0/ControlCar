@@ -9,58 +9,60 @@
     <link rel="stylesheet" href="https://kit.fontawesome.com/ac38590961.css" crossorigin="anonymous">
 </head>
 <body>
-    <div><h1>Xe Điều Khiển Từ Xa</h1></div>
+    <div><h1>Car CLAB</h1></div>
 	<div class="container">
 		<div class="video">
             <!-- Video sẽ được hiển thị ở đây -->
         </div>
-		<div class="data">
-            <div class="data_member vantoc">
-                <h2>Vận Tốc</h2>
-                <table class="table table-bordered border-primary">
-                    <tr>
-                        <td>D0</td>
-                        <td>D1</td>
-                        <td>D2</td>
-                        <td>D3</td>
-                        <td>D4</td>
-                    </tr>
-                    <tr>
-                        <td>D5</td>
-                        <td>D6</td>
-                        <td>D7</td>
-                        <td>D8</td>
-                        <td>D9</td>
-                    </tr>
-                </table>
+        <div class="data_container">
+            <div class="data">
+                <div class="data_member vantoc">
+                    <h2>Speed</h2>
+                    <table class="table table-bordered border-primary">
+                        <tr>
+                            <td>D0</td>
+                            <td>D1</td>
+                            <td>D2</td>
+                            <td>D3</td>
+                            <td>D4</td>
+                        </tr>
+                        <tr>
+                            <td>D5</td>
+                            <td>D6</td>
+                            <td>D7</td>
+                            <td>D8</td>
+                            <td>D9</td>
+                        </tr>
+                    </table>
+                </div>
+    
+                <div class="data_member time">
+                    <h2>Time</h2>
+                    <p>10s</p>
+                </div>
+                <div class="data_member status">
+                    <h2>Status</h2>
+                    <p>Stop</p>
+                </div>
+                <div class="data_member nhietdo">
+                    <h2>Temperature</h2>
+                    <p>50°C</p>
+                </div>
+                <div class="data_member doam">
+                    <h2>Humidity</h2>
+                    <p>80%</p>
+                </div>
+                <div class="data_member giatoc">
+                    <h2>Acceleration</h2>
+                    <p>5 m/s^2</p>
+                </div>
+                <div class="data_member goal">
+                    <h2>Goal</h2>
+                    <p>(10.12345, 106.67890)</p>
+                </div>
+    
             </div>
-
-            <div class="data_member time">
-				<h2>Thời gian</h2>
-				<p>10s</p>
-			</div>
-			<div class="data_member status">
-				<h2>Trạng thái</h2>
-				<p>Tiến</p>
-			</div>
-            <div class="data_member nhietdo">
-				<h2>Nhiệt độ</h2>
-				<p>50°C</p>
-			</div>
-            <div class="data_member doam">
-				<h2>Độ ẩm</h2>
-				<p>80%</p>
-			</div>
-			<div class="data_member giatoc">
-				<h2>Gia Tốc</h2>
-				<p>5 m/s^2</p>
-			</div>
-			<div class="data_member goal">
-				<h2>Đích</h2>
-                <p>(10.12345, 106.67890)</p>
-            </div>
-
-            <div class="data_member control">
+            <div class="control">
                 <div class="control_group">
                     <div class="control_item row-3">
                         <p class="coll"></p>
@@ -77,8 +79,9 @@
                         <p class="coll"></p>
                     </div>
                 </div>
-			</div>
+            </div>
         </div>
+
     </div>
     </body>
     </html>
